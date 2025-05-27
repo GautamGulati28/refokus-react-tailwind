@@ -55,7 +55,7 @@ function Products() {
     setPos(val * 23);
   };
   return (
-    <div className="mt-40 relative">
+    <div className="mt-20 xl:mt-40 relative">
       {products.map((val, index) => (
         <Product mover={mover} count={index} key={index} val={val} />
       ))}
@@ -64,7 +64,7 @@ function Products() {
           initial={{ y: pos, x: "-50%" }}
           animate={{ y: pos + `rem` }}
           transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.6 }}
-          className="window absolute w-[32rem] h-[23rem] left-[44%] rounded-3xl overflow-hidden"
+          className="window absolute xl:w-[32rem] xl:h-[23rem] left-[44%] rounded-3xl overflow-hidden"
         >
           <motion.div
             animate={{ y: -pos + `rem` }}

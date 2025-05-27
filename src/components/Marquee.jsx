@@ -1,25 +1,3 @@
-// import React from "react";
-
-// function Marquee({ imagesurls }) {
-//   return (
-//     <div>
-//       <div className="flex w-full py-8 gap-10 whitespace-nowrap overflow-hidden">
-//         {imagesurls.map((url, index) => (
-//           <img key={index} className="flex-shrink-0 w-[6vw]" src={url} />
-//         ))}
-//       </div>
-//       <div className="flex w-full py-8 gap-10 whitespace-nowrap overflow-hidden">
-//         {imagesurls.map((url, index) => (
-//           <img key={index} className="flex-shrink-0 w-[6vw]" src={url} />
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Marquee;
-
-/* eslint-disable react/prop-types */
 import { motion } from "framer-motion";
 import React from "react";
 

@@ -28,7 +28,7 @@ function Marquees() {
     ],
   ];
   return (
-    <div className='relative overflow-hidden flex flex-col pt-20 pb-10 mt-10'>
+    <div className='relative overflow-hidden flex flex-col pt-20 pb-10 xl:mt-10'>
         {images.map((item,index)=><Marquee direction={index===0?"left":"right"} key={index} imagesurls={item} />)}
     </div>
   )
